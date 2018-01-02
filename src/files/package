@@ -1,0 +1,22 @@
+{
+  "name": "project name",
+  "version": "0.0.1",
+  "description": "project description",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/project.git"
+  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "precommit": "lint-staged && jest",
+    "test": "jest",
+    "start": "",
+    "build": ""
+  },
+  "lint-staged": {
+    "*.js": ["eslint --fix", "git add"],
+    "*.{json,css,md}": ["prettier --write", "git add"]
+  }
+}

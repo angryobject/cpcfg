@@ -1,0 +1,32 @@
+{
+  "name": "cpcfg",
+  "version": "0.0.1",
+  "description": "Copy config boilerplates to current directory",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angryobject/cpcfg.git"
+  },
+  "main": "src/index.js",
+  "bin": {
+    "cpcfg": "src/cli.js"
+  },
+  "scripts": {
+    "precommit": "lint-staged && jest",
+    "test": "jest"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-plugin-prettier": "^2.4.0",
+    "husky": "^0.14.3",
+    "jest": "^22.0.4",
+    "lint-staged": "^6.0.0",
+    "prettier": "^1.9.2"
+  }
+}

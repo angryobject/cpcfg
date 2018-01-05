@@ -18,7 +18,9 @@ module.exports = {
   },
   lint: {
     prettier: '.prettierrc',
+    prettierignore: '.prettierignore',
     eslint: '.eslintrc',
+    eslintignore: '.eslintignore',
   },
   test: {
     jest: 'jest.config.js',

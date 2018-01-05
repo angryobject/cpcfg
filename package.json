@@ -1,6 +1,6 @@
 {
   "name": "cpcfg",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Copy config boilerplates to current directory",
   "license": "MIT",
   "repository": {

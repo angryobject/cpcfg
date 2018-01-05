@@ -31,5 +31,7 @@ module.exports = {
     posthtml: '.posthtmlrc',
     browserlist: '.browserlistrc',
   },
-  bundlers: {},
+  rollup: {
+    rollup: 'rollup.config.js'
+  },
 };

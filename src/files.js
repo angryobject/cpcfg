@@ -29,7 +29,7 @@ module.exports = {
     babel: '.babelrc',
     postcss: 'postcss.config.js',
     posthtml: '.posthtmlrc',
-    browserlist: '.browserlistrc',
+    browserslist: '.browserslist',
   },
   rollup: {
     rollup: 'rollup.config.js'

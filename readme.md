@@ -1,3 +1,7 @@
+# DEPRECATED
+
+See [this](https://github.com/angryobject/coffre) instead.
+
 # cpcfg
 
 > Copy config files boilerplates to current directory
